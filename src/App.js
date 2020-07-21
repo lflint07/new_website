@@ -1,5 +1,5 @@
 import React from 'react';
-import Aside from './components/Aside';
+import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
 import Skills from './components/Skills';
@@ -8,15 +8,15 @@ import Experience from './components/Experience';
 import Work from './components/Work';
 import Blog from './components/Blog';
 import Contact from './components/Contact';
-import './App.css';
+import './App.scss';
+import './index.scss';
 
 function App() {
   return (
-    <div className="container-page">
-      <div className="container-wrap">
-          
-            <Aside />
-          
+    <div className="main-container">
+      <div className="container-navbar">
+            <Navbar />
+      </div>
         <div className="container-main">
             <Hero/>
             <About />
@@ -26,13 +26,10 @@ function App() {
             <Work />
             <Blog />
             <Contact />
-          
           </div>
-      </div>
     </div>
   );
 }
 
 export default App;
-
 

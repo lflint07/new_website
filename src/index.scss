@@ -1,0 +1,55 @@
+$primary-color: #444;
+
+
+body {
+  // display: grid;
+  // font-family: "Gotham", Arial, sans-serif;
+  // font-weight: 400;
+  // font-size: 15px;
+  // background: $primary-color;
+
+}
+  
+// code {
+//   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+//     monospace; 
+// }
+
+.main-container {
+//   display: grid;
+//   max-width: 1500px;
+//   grid-template-columns: 30% 70%;
+  background-color: $primary-color;
+  color: white;
+//   grid-gap: 20px;
+ }
+
+// #navbar {
+//   grid-area: auto;
+// }
+// .nav-header {
+//   display: grid;
+//   justify-content: center;
+// }
+
+// .nav-aside {
+//   display: grid;
+//   justify-content: center;
+// }
+
+// .nav-aside ul {
+//   padding: 10px;
+// }
+
+
+// #hero {
+//   background-color: burlywood;
+// }
+
+// #about {
+//   background-color: cadetblue;
+// }
+
+// #skills {
+//   width: 100%;
+// }
