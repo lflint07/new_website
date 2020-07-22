@@ -28,37 +28,37 @@ function Menu() {
     )
 }
 
-//Select DOM items
-const menuButton = document.querySelector('.menu-button');
-const menu = document.querySelector('.menu');
-const menuNavigation = document.querySelector('.menu-navigation');
-const menuBranding = document.querySelector('.menu-branding');
-const navItems = document.querySelectorAll("nav-item");
+// //Select DOM items
+// const menuButton = document.querySelector('.menu-button');
+// const menu = document.querySelector('.menu');
+// const menuNavigation = document.querySelector('.menu-navigation');
+// const menuBranding = document.querySelector('.menu-branding');
+// const navItems = document.querySelectorAll("nav-item");
 
-// Set Initial State of Menu
-let showMenu = false;
+// // Set Initial State of Menu
+// let showMenu = false;
 
-// menuButton={addEventListener(onClick, toggleMenu)}
+// // menuButton={addEventListener(onClick, toggleMenu)}
 
-function toggleMenu() {
-    if(!showMenu) {
-        menuButton.classList.add('close');
-        menu.classList.add('show');
-        menuNavigation.classList.add('show');
-        menuBranding.classList.add('show');
-        navItems.forEach(item => item.classList.add('show'));
+// function toggleMenu() {
+//     if(!showMenu) {
+//         menuButton.classList.add('close');
+//         menu.classList.add('show');
+//         menuNavigation.classList.add('show');
+//         menuBranding.classList.add('show');
+//         navItems.forEach(item => item.classList.add('show'));
 
-        showMenu = true;
-    } else {
-        menuButton.classList.remove('close');
-        menu.classList.remove('show');
-        menuNavigation.classList.remove('show');
-        menuBranding.classList.remove('show');
-        navItems.forEach(item => item.classList.remove('show'));
+//         showMenu = true;
+//     } else {
+//         menuButton.classList.remove('close');
+//         menu.classList.remove('show');
+//         menuNavigation.classList.remove('show');
+//         menuBranding.classList.remove('show');
+//         navItems.forEach(item => item.classList.remove('show'));
 
-        showMenu= false;
-    }
-}
+//         showMenu= false;
+//     }
+//}
 
 
 export default Menu
