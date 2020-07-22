@@ -1,6 +1,6 @@
 import React from 'react';
 import './fontawesome';
-import Header from './components/Header';
+import Menu from './components/Menu';
 import Main from './components/Main';
 import About from './components/About';
 import Skills from './components/Skills';
@@ -16,17 +16,15 @@ import './App.scss';
 function App() {
   return (
     <div id="body">
-
-        <Header />
+        <Menu/>
         <Main />
-            <About />
-            <Skills />
-            <Education />
-            <Experience />
-            <Work />
-            <Blog />
-            <Contact />
-            
+        <About />
+        <Skills />
+        <Education />
+        <Experience />
+        <Work />
+        <Blog />
+        <Contact />
     </div>
   );
 }
