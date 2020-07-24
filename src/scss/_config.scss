@@ -1,7 +1,7 @@
 $primary-color: #23383f;
 $secondary-color: #f9ac34;
 $tertiary-color: #fbcb78;
-$additonal-color: #f0eadc;
+$additional-color: #f0eadc;
 $black-color: #2f2f30;
 $gray-color: #a0a09a;
 $show-home-image: true;
@@ -32,6 +32,16 @@ $background-opacity: 0.9;
       }
    }
 }
+
+// @mixin footer {
+//   &#footer {
+//   text-align: center;
+//   padding: 1rem;
+//   background: darken($primary-color, 10);
+//   color: set-text-color($primary-color);
+//   height: 60px;
+//   }
+// }
 
 //Set Text Color
 @function set-text-color($color) {

@@ -3,7 +3,7 @@ import React from 'react'
 function About() {
     return(
         <div>
-            <header>
+            {/* <header>
                 <div className="menu-button">
                     <div className="button-line"></div>
                     <div className="button-line"></div>
@@ -17,15 +17,21 @@ function About() {
                         <li className="nav-item"><a href="/" className="nav-link">Reach Me</a></li>
                     </ul>
                 </nav>
-            </header>
+            </header> */}
             <main id="about">
-                <h1 className="lg-heading">About<span className="text-secondary">Me</span></h1>
-                <h2 className="sm-heading">Who am I?</h2>
+                <h1 className="lg-heading">About<span className="text-secondary"> Me</span></h1>
+                {/* <h2 className="sm-heading">Who am I?</h2> */}
                 <div className="about-info">
-                    <img src="/img/new_website_avi.jpg" alt="Luke Flint" className="bio-image"></img>
+                    <img src="/images/new_website_avi.jpg" alt="Luke Flint" className="bio-image"></img>
                     <div class="bio">
-                        <h3 className="text-secondry">BIO</h3>
-                        <p> Bats frighten me. It's time my enemies shared my dread. The first time I stole so that I wouldn't starve, yes. I lost many assumptions about the simple nature of right and wrong. And when I traveled I learned the fear before a crime and the thrill of success. But I never became one of them.</p>
+                        <h3 className="text-secondry">Who am I?</h3>
+                        <p>These sections are always so tough for me to write because I want to include relevant information about myself but I also don't want to wax poetic.
+
+I would classify myself as a life-long learner with a wide array of interests. I am an avid reader and the list of my 'hobbies' include nutrition and fitness, creating art (of which I've highlighted in this portfolio), cinematography, and sneakers.
+
+I'm a graduate of Virginia Polytechnic Institute and State University, otherwise known as Virginia Tech, and I currently reside in Charlotte, North Carolina.
+
+</p>
                     </div>
                     <div className="job job-1">
                         <h3>123 Workshop</h3>
@@ -44,9 +50,9 @@ function About() {
                     </div>
                 </div>
             </main>
-            <footer id="about-footer">
+            {/* <footer id="about-footer">
                 Copyright &copy; 2020
-            </footer>
+            </footer> */}
         </div>
 
     )
