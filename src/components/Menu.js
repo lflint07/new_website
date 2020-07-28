@@ -2,29 +2,29 @@ import React from 'react';
 
 
 function Menu() {
-    const menuClick = () => {
-        console.log("Hi my name's Luke")
-    }
+    // const menuClick = () => {
+    //     console.log("Hi my name's Luke")
+    // }
 
-    return (
-        <header>
-            <div className="menu-button" onClick={menuClick}>
-                <div className="button-line"></div>
-                <div className="button-line"></div>
-                <div className="button-line"></div>
-            </div>
-            <nav className="menu">
-                <div className="menu-branding">
-                    <div className="portrait"></div>
-                </div>
-                <ul className="menu-navigation">
-                    <li className="nav-item current"><a href="/" className="nav-link">Home</a></li>
-                    <li className="nav-item"><a href="/" className="nav-link">About Me</a></li>
-                    <li className="nav-item"><a href="/" className="nav-link">My Work</a></li>
-                    <li className="nav-item"><a href="/" className="nav-link">Reach Me</a></li>
-                </ul>
-            </nav>
-        </header>  
+    return (<div></div>
+        // <header>
+        //     <div className="menu-button">
+        //         <div className="button-line"></div>
+        //         <div className="button-line"></div>
+        //         <div className="button-line"></div>
+        //     </div>
+        //     <nav className="menu">
+        //         <div className="menu-branding">
+        //             <div className="portrait"></div>
+        //         </div>
+        //         <ul className="menu-navigation">
+        //             <li className="nav-item current"><a href="/" className="nav-link">Home</a></li>
+        //             <li className="nav-item"><a href="/" className="nav-link">About Me</a></li>
+        //             <li className="nav-item"><a href="/" className="nav-link">My Work</a></li>
+        //             <li className="nav-item"><a href="/" className="nav-link">Reach Me</a></li>
+        //         </ul>
+        //     </nav>
+        // </header>  
     )
 }
 

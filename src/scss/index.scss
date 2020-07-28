@@ -1,6 +1,5 @@
-@import 'config';
-@import 'menu';
-
+@import "config";
+@import "menu";
 
 * {
   box-sizing: border-box;
@@ -12,12 +11,14 @@
   color: set-text-color($primary-color);
   height: 100%;
   margin: 0;
-  font-family: 'Gotham';
+  font-family: "Gotham";
   line-height: 1.5;
 }
 
 //Headings
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   margin: 0;
   font-weight: 400;
   color: $additional-color;
@@ -27,15 +28,13 @@ h1, h2, h3 {
   &.lg-heading {
     font-size: 6rem;
     color: $additional-color;
-    
   }
 
   &.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(lighten($primary-color, 2), 0.5);
+    background: rgba(lighten($primary-color, 3), 0.5);
   }
-  
 }
 
 a {
@@ -79,13 +78,16 @@ main {
   }
 }
 
+
+
 .about-info {
   display: grid;
   grid-gap: 30px;
   grid-template-areas:
-  'bioimage bio bio'
-  'job1 job2 job3';
+    'bioimage bio bio'
+    'job1 job2 job3';
   grid-template-columns: repeat(3, 1fr);
+
 
   .bio-image {
     grid-area: bioimage;
@@ -93,48 +95,77 @@ main {
     border-radius: 50%;
     border: $tertiary-color 3px solid;
   }
-  
+
   .bio {
     grid-area: bio;
     font-size: 1.5rem;
   }
-  
+
+  h3,
+  p,
+  ul {
+    color: $additional-color;
+  }
+
+  h5 {
+    text-align: center;
+    color: $additional-color;
+  }
+
   .job-1 {
     grid-area: job1;
   }
-  
+
   .job-2 {
     grid-area: job2;
   }
-  
+
   .job-3 {
     grid-area: job3;
   }
-  
+
   .job {
-    background: lighten($primary-color, 5);
+    background: lighten($primary-color, 3);
+    align-content: center;
     padding: 0.5rem;
     border-bottom: $tertiary-color 5px solid;
   }
+
 }
 
 //Work/Projects
 .projects {
   display: grid;
-  background: $secondary-color;
+  //background: $secondary-color;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 0.7rem;
-  
+  text-align: center;
+  color: $black-color;
+
   img {
-    width: 100%;
+    // display: block;
+    max-width: 100%;
+    // margin-left: 50%;
+    // margin-right: 50%;
     border: 3px #fff solid;
+    content: cover;
 
     &:hover {
       opacity: 0.5;
       border-color: $secondary-color;
       @include easeOut;
     }
+ 
   }
+  .project-cover {
+    display: block;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+
 }
 
 //Contact Page
@@ -171,7 +202,7 @@ main {
   margin-bottom: 0.3rem;
   &:hover {
     background: $tertiary-color;
-    color: set-text-color($tertiary-color);
+    color: set-text-color($black-color);
   }
 }
 
@@ -183,13 +214,12 @@ main {
 
 .button-light {
   @extend .button;
-  background: lighten($gray-color, 50);
+  background: lighten($black-color, 50);
   color: $additional-color;
 }
 
 #about-footer,
 #work-footer {
-  // @include footer;
   text-align: center;
   padding: 1rem;
   background: darken($primary-color, 10);
@@ -197,5 +227,4 @@ main {
   height: 60px;
 }
 
-
-@import 'mobile';
+@import "mobile";
