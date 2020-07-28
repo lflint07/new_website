@@ -31,14 +31,14 @@ function Work() {
                    </div>
                    <div className ="item notes">
                        <div className="project-cover">
-                       <a href="#!">
+                       <a href="https://github.com/lflint07/on_task_react" target="_blank" rel="noopener noreferrer">
                            <img src="images/notes.jpg" alt="notes app"></img>
                        </a>
                        </div>
                        <a href="#!" className="button-light">
                            <i className="fas fa-eye"></i>Notes App
                        </a>
-                       <a href="#!" className="button-dark">
+                       <a href="https://github.com/lflint07/on_task_react" target="_blank" rel="noopener noreferrer" className="button-dark">
                            <i className="fab fa-github"></i>Github
                        </a>
                    </div>
