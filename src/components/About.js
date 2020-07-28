@@ -16,15 +16,38 @@ function About() {
           <div class="bio">
             {/* <h3 className="text-secondry">Who am I?</h3> */}
             <p>
-              These sections are always so tough for me to write because I want
-              to include relevant information about myself but I also don't want
-              to wax poetic. I would classify myself as a life-long learner with
-              a wide array of interests. I am an avid reader and the list of my
-              'hobbies' include nutrition and fitness, creating art (of which
-              I've highlighted in this portfolio), cinematography, and sneakers.
-              I'm a graduate of Virginia Polytechnic Institute and State
-              University, otherwise known as Virginia Tech, and I currently
-              reside in Charlotte, North Carolina.
+              My career has definitely taken an untraditional trajectory. I
+              graduated from Virginia Tech with a Hospitality degree during one
+              of the largest economic downturns in modern history. Despite this,
+              I began finding opportunities wherever they presented themselves
+              by working various odd jobs. This helped me gain insightful
+              experience and a plethora of applicable skills in several
+              industries before eventually deciding to move to Charlotte.
+            </p>
+            <p>
+              I’m all about going where the opportunity is, and Charlotte is a
+              hub for talented minds. After establishing myself here, I found my
+              next opportunity in completing the full-stack web development
+              bootcamp with Tech Talent South. From there, I worked in a series
+              of creatieve roles for local startups, then I found my way to
+              2ULaundry – a local pickup and delivery laundry startup.
+            </p>
+            <p>
+              2ULaundry was a bit of a Cinderella Story for me – I started as a
+              delivery driver but quickly moved high up in the ranks. They ended
+              up creating two separate positions for me – Tier II Analyst and
+              Senior Business Analyst. I worked with the Customer Care Team to
+              develop and implement processes to enhance overall employee and
+              customer experience. Then, I joined the Research and Development
+              team, where I maintained internal systems, managed projects, and
+              aggregated data for reporting.
+            </p>
+            <p>
+              Due to COVID-19, however, my entire team was laid off. I’ve
+              definitely come full circle. Now, I’m looking to utilize my skills
+              with technology-forward company as a web developer, designer or
+              project manager while building customer-centric, front-end
+              technology.
             </p>
           </div>
           <div className="job job-1">
