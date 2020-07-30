@@ -1,4 +1,4 @@
-//Widescreens
+//Widescreens -- EXTRA LARGE
 @include mediaXl {
   #home {
     content: left;
@@ -7,36 +7,31 @@
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .project-cover {
-    width: 100%;
-  }
 }
-//Desktops & Laptops
+//Desktops & Laptops -- LARGE
 @include mediaLg {
   .about-info {
     display: grid;
-    grid-template-areas:
-      'bioimage'
-      'bio'
-      'job1'
-      'job2'
-      'job3';
+    grid-template-areas: "bioimage" "bio";
 
     grid-template-columns: 1fr;
-
-    .bio-image {
-      width: 100%;
-      background-color: purple;
-    }
   }
+  .job-experience {
+    display: grid;
+    grid-template-areas:
+      "job1"
+      "job2"
+      "job3";
 
+    grid-template-columns: 1fr;
+  }
 
   .projects {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
-//Tablets & Small Laptops
+//Tablets & Small Laptops -- MEDIUM
 @include mediaMd {
   main {
     align-items: center;
@@ -47,105 +42,59 @@
       margin-bottom: 1rem;
     }
   }
-
-  ul.menu-navigation,
-  div.menu-branding {
-    float: none;
-    width: 100%;
-    min-height: 0;
-    &.show {
-      transform: translate3d(0, 0, 0);
-    }
-  }
-
-  .menu-navigation {
-    height: 75vh;
-    transform: translate3d(-100%, 0, 0);
-    font-size: 24px;
-  }
-
-  .menu-branding {
-    height: 25vh;
-    transform: translate3d(100%, 0, 0);
-
-    .portrait {
-      background: url(/images/new_website_avi.jpg);
-      width: 100px;
-      height: 100px;
-    }
-  }
-  #about {
-    width: 100%;
-  }
+  //About
   .about-info {
     display: grid;
     grid-template-areas:
-      'bioimage'
-      'bio'
-      'job1'
-      'job2'
-      'job3';
+      "bioimage"
+      "bio";
     grid-template-columns: 1fr;
-
-    .bio,
-    .job {
-      font-size: 1.0rem;
-    }
-
-    ul {
-      align-items: initial;
-    }
   }
 
+    //Experience
+    // .job-experience {
+    //   display: grid;
+    //   grid-template-areas:
+    //     'job1'
+    //     'job2'
+    //     'job3';
 
-  .projects {
-    
-    grid-template-columns: 1fr;
-    
-  }
+    //   grid-template-columns: 1fr;
+    // }
+    //Projects
+    .projects {
+      grid-template-columns: repeat(3 1fr);
+    }
+
 }
 
-
-//Smartphones
+//Cell Phones -- SMALL
 @include mediaSm {
-
-  #body {
-    width: 100%;
-    scroll-behavior: auto;
-  }
   main#home h1 {
     margin-top: 10vh;
   }
-  .about-info {
-   display: grid;
-   width: 100%;
-   grid-template-areas:
-   'bioimage'
-    'bio'
-    'job1'
-    'job2'
-    'job3';
-   grid-template-columns: 1fr;
-  
-   .bio {
-     font-size: 5vw;
-   }
-   .job {
-       font-size: 4vw;
-       content: left;
-     }
+
+  .navbar {
+    display: grid;
+    grid-template-rows: 1fr;
   }
 
   
 
-  
+  // #experience {
+  //   display: grid;
+  //   grid-template-areas:
+    
+  //     "job1"
+  //     "job2"
+  //     "job3";
+
+  //   grid-template-columns: 1fr;
+  // }
 
   .projects {
+    display: grid;
     grid-template-columns: 1fr;
     grid-gap: 10px;
   }
-
-  
-
- 
 }

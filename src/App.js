@@ -16,7 +16,7 @@ import './App.scss';
 function App() {
   return (
     <div id="body">
-        <Menu/>
+        <Menu />
         <Main />
         <About />
         <Skills />
