@@ -35,7 +35,7 @@ h3 {
   &.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(lighten($primary-color, 3), 0.5);
+    // background: rgba(lighten($primary-color, 3), 0.5);
   }
 }
 
@@ -49,51 +49,22 @@ a {
   // color: $tertiary-color;
 }
 
-//Main tag
 
-main {
-  padding: 4rem;
-  min-height: calc(100vh-60px);
-  min-height: 100%;
-
-  .icons {
-    margin-top: 1rem;
-
-    a {
-      padding: 0.4rem;
-
-      &:hover {
-        color: $secondary-color;
-        @include easeOut();
-      }
-    }
-  }
-
-  &#home {
-    overflow: hidden;
-    h1 {
-      margin-top: 20vh;
-    }
-  }
-}
 
 //Menu
 .navbar {
   background: darken($primary-color, 10);
-  display: grid;
-  grid-template-columns: 4fr;
-  align-items: center;
-  text-align: center;
-  height: 50px;
-  overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
+  
 }
 
 .navbar ul {
   list-style: none;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  justify-self: end;
-  padding-right: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-right: 20px;
+  flex-wrap: wrap;
 }
 
 .nav-item a {
@@ -111,6 +82,13 @@ main {
   @include easeOut;
 }
 
+//Home
+#home {
+  display: flex;
+  flex-direction: column;
+  
+}
+
 //About
 
 #about {
@@ -119,55 +97,38 @@ main {
 }
 
 .about-info {
-  display: grid;
-  grid-gap: 30px;
-  grid-template-areas: 'bioimage bio';
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-  .about {
-    font-size: 6rem;
-    color: $primary-color;
-  }
   .bio-image {
-    grid-area: bioimage;
-    width: auto;
-    margin: 0;
+   display: flex;
     border-radius: 50%;
     border: $tertiary-color 3px solid;
+    
   }
 
   .bio {
-    grid-area: bio;
-    font-size: 1.5rem;
+    padding: 5px;
+    margin: 0 5px 0 5px;
+    justify-content: center;
+    align-content: center;
+    color: $primary-color;
   }
 
 }
 
   //Experience
-  .job-experience {
-    display: grid;
-    grid-gap: 30px;
-    grid-template-areas: "job1 job2 job3";
+  #experience {
+    display: flex;
+    flex-direction: column;
     
-    grid-template-columns: repeat(3, 1fr);
-
-    .job-1 {
-      grid-area: 'job1';
-    }
-
-    .job-2 {
-      grid-area: 'job2';
-    }
-
-    .job-3 {
-      grid-area: 'job3';
-    }
-
     .job {
       background: lighten($primary-color, 3);
-      align-content: center;
       padding: 0.5rem;
       border-bottom: $tertiary-color 5px solid;
+      margin-bottom: 20px;
     }
   }
 

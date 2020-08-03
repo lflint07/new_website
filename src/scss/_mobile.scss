@@ -3,19 +3,28 @@
   #home {
     content: left;
   }
+
+  .about-info {
+    display: flex;
+    flex-direction: row;
+
+    .bio-image {
+      display: flex;
+      flex-direction: row;
+    }
+  }
   .projects {
     grid-template-columns: repeat(3, 1fr);
   }
-
 }
 //Desktops & Laptops -- LARGE
 @include mediaLg {
+  //About
   .about-info {
-    display: grid;
-    grid-template-areas: "bioimage" "bio";
-
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
   }
+  //Experience
   .job-experience {
     display: grid;
     grid-template-areas:
@@ -25,7 +34,7 @@
 
     grid-template-columns: 1fr;
   }
-
+  //Projects
   .projects {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -42,55 +51,35 @@
       margin-bottom: 1rem;
     }
   }
-  //About
-  .about-info {
-    display: grid;
-    grid-template-areas:
-      "bioimage"
-      "bio";
-    grid-template-columns: 1fr;
+  //Experience
+  // .job-experience {
+  //   display: grid;
+  //   grid-template-areas:
+  //     'job1'
+  //     'job2'
+  //     'job3';
+
+  //   grid-template-columns: 1fr;
+  // }
+  //Projects
+  .projects {
+    grid-template-columns: repeat(3 1fr);
   }
-
-    //Experience
-    // .job-experience {
-    //   display: grid;
-    //   grid-template-areas:
-    //     'job1'
-    //     'job2'
-    //     'job3';
-
-    //   grid-template-columns: 1fr;
-    // }
-    //Projects
-    .projects {
-      grid-template-columns: repeat(3 1fr);
-    }
-
 }
 
 //Cell Phones -- SMALL
 @include mediaSm {
-  main#home h1 {
-    margin-top: 10vh;
-  }
-
-  .navbar {
-    display: grid;
-    grid-template-rows: 1fr;
-  }
-
-  
-
-  // #experience {
-  //   display: grid;
-  //   grid-template-areas:
-    
-  //     "job1"
-  //     "job2"
-  //     "job3";
-
-  //   grid-template-columns: 1fr;
+  // main#home h1 {
+  //   // margin-top: 10vh;
   // }
+
+  .navbar ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
 
   .projects {
     display: grid;

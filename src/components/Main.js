@@ -6,7 +6,7 @@ function Main() {
       <h1 className="lg-heading">
         Hi, I'm <span className="text-secondary">Luke</span>
       </h1>
-      <h2 className="sm-heading">Welcome to My Portfolio</h2>
+      <h2 className="sm-heading">"I’m a business-minded and creative technologist with a penchant for maximizing the customer experience"</h2>
     </main>
   );
 }

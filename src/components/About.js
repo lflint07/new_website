@@ -13,7 +13,7 @@ function About() {
             alt="Luke Flint"
             className="bio-image"
           ></img>
-          <div class="bio">
+          <div className="bio">
             {/* <h3 className="text-secondry">Who am I?</h3> */}
             <p>
               My career has definitely taken an untraditional trajectory. I
@@ -58,5 +58,4 @@ function About() {
 }
 
 export default About;
-
 
