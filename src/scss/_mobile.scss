@@ -18,17 +18,22 @@
   .job-experience {
     display: flex;
     flex-direction: row;
-    
 
     .job {
       border: solid 5px $primary-color;
-      border-bottom: $tertiary-color  solid;
+      border-bottom: $tertiary-color solid;
       margin-bottom: 20px;
     }
   }
   //Projects
   .projects {
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-direction: row;
+
+    .project.boxes {
+      display: flex;
+      flex-direction: row;
+    }
   }
 }
 //Desktops & Laptops -- LARGE
@@ -41,19 +46,16 @@
   //Experience
   .job-experience {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
 
     .job {
       border: solid 5px $primary-color;
-      border-bottom: $tertiary-color  solid;
+      border-bottom: $tertiary-color solid;
       margin-bottom: 20px;
     }
   }
   //Projects
-  .projects {
-    grid-template-columns: repeat(3, 1fr);
-  }
 }
 
 //Tablets & Small Laptops -- MEDIUM
@@ -62,36 +64,32 @@
     align-items: center;
     text-align: center;
 
-    .lg-heading {
-      line-height: 1;
-      margin-bottom: 1rem;
-    }
-  }
-  
-
-  //Projects
-  .projects {
-    grid-template-columns: repeat(3 1fr);
+    // .lg-heading {
+    //   line-height: 1;
+    //   margin-bottom: 1rem;
+    // }
   }
 }
 
 //Cell Phones -- SMALL
 @include mediaSm {
-  // main#home h1 {
-  //   // margin-top: 10vh;
-  // }
+  main#home h1 {
+  margin-top: 10vh;
+ }
 
   .navbar ul {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: flex-start;
+    align-items: center;
+  }
+
+  .bio-image {
+    width: 100%;
   }
 
 
-  .projects {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 10px;
+  #contact {
+    width: 100%;
   }
 }
