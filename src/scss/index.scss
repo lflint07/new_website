@@ -11,8 +11,8 @@
   // @include background;
   background: $primary-color;
   color: set-text-color($primary-color);
-  height: 100%;
-  margin: auto;
+  // height: 100%;
+  // margin: auto;
   font-family: "Gotham";
   line-height: 1.5;
 }
@@ -20,7 +20,10 @@
 //Headings
 h1,
 h2,
-h3 {
+h3,
+h5,
+h6 {
+  // width: auto 0;
   margin: 0;
   font-weight: 400;
   color: $additional-color;
@@ -49,14 +52,11 @@ a {
   // color: $tertiary-color;
 }
 
-
-
 //Menu
 .navbar {
   background: darken($primary-color, 10);
   display: flex;
   justify-content: flex-end;
-  
 }
 
 .navbar ul {
@@ -86,14 +86,21 @@ a {
 #home {
   display: flex;
   flex-direction: column;
-  
 }
 
 //About
 
 #about {
-  width: 100%;
+  // display: flex;
+  // flex-direction: column;
   background: $tertiary-color;
+}
+.lg-heading.about {
+  color: $primary-color;
+}
+
+.text-secondary.about {
+  color: $additional-color;
 }
 
 .about-info {
@@ -103,10 +110,9 @@ a {
   align-items: center;
 
   .bio-image {
-   display: flex;
+    display: flex;
     border-radius: 50%;
     border: $tertiary-color 3px solid;
-    
   }
 
   .bio {
@@ -116,25 +122,30 @@ a {
     align-content: center;
     color: $primary-color;
   }
-
 }
 
-  //Experience
-  #experience {
-    display: flex;
-    flex-direction: column;
-    
-    .job {
-      background: lighten($primary-color, 3);
-      padding: 0.5rem;
-      border-bottom: $tertiary-color 5px solid;
-      margin-bottom: 20px;
-    }
+//Experience
+#experience {
+  display: flex;
+  flex-direction: column;
+  color: $additional-color;
+
+
+  .job {
+    background: lighten($primary-color, 3);
+    padding: 0.5rem;
+    // border-bottom: $tertiary-color 5px solid;
+    margin-bottom: 20px;
   }
+}
 
 //Work and Projects
 #work {
   background-color: $additional-color;
+}
+
+.lg-heading.work {
+  color: $primary-color;
 }
 
 .projects {
@@ -159,7 +170,6 @@ a {
       @include easeOut;
     }
   }
-  
 }
 
 //Contact Page

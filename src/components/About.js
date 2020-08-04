@@ -5,7 +5,7 @@ function About() {
     <div>
       <div id="about">
         <h1 className="lg-heading about">
-          About<span className="text-secondary"> Me</span>
+          About<span className="text-secondary about"> Me</span>
         </h1>
         <div className="about-info">
           <img

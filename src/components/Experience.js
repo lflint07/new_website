@@ -4,35 +4,38 @@ function Experience() {
   return (
     <div>
       <div id="experience">
-        <h1 className="lg-heading">
+        <h1 className="lg-heading experience">
           My<span className="text-secondary"> Experience</span>
         </h1>
         <div className="job-experience">
           <div className="job job-1">
             <h3>Software Analyst</h3>
             <h5>Research and Development / 2ULaundry Inc.</h5>
+            <h6>Mar 2019 - Mar 2020</h6>
             <div>
               <ul>
                 <li>
-                  Managed Research and Development dependencies using
-                  traditional Agile methodologies while quality assurance
-                  testing across internal platforms for cross-departmental
-                  synchronization prior to the launch of a third operating
-                  service location.
+                  Executive team recognized desire to move into technology, thus
+                  resulting in a promotion which focused on cross-departmental
+                  company projects.
                 </li>
                 <li>
-                  Responsible for maintaining near 100% uptime of legacy systems
-                  by managing daily internal irregularities including cross
-                  departmental software issues.
+                  Launched the third location through project managing research
+                  & development dependencies using Agile methodology and quality
+                  assurance.
                 </li>
                 <li>
-                  Acted as process owner for credential generation and employee
-                  onboarding{" "}
+                  Maintained near 100% uptime of the legacy system. Identified
+                  and remediated cross-departmental software issues,
+                  guaranteeing digital operations remained uninterrupted.
                 </li>
                 <li>
-                  Tasked with overseeing projects utilizing data aggregation,
-                  reducing operational risk with regards to internal company
-                  hardware, and managing sitewide information for a subsidiary.
+                  Oversaw ad hoc projects utilizing data aggregation, reduced
+                  operational risk with internal company hardware.
+                </li>
+                <li>
+                  Utilized MySQL WorkBench and Django Python web framework to
+                  aggregate critical data for reporting teams.
                 </li>
               </ul>
             </div>

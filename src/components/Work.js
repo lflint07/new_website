@@ -4,7 +4,7 @@ function Work() {
     return(
         <div>
             <main id="work">
-                <h1 className="lg-heading">My<span className="text-secondary"> Work</span></h1>
+                <h1 className="lg-heading work">Current<span className="text-secondary"> Projects</span></h1>
                 <h2 className="sm-heading">Check out a few of my projects</h2>
                 <div className="projects">
                    <div className ="item dictionary">
