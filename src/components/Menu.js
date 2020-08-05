@@ -3,7 +3,6 @@ import React from "react";
 
 function Menu() {
   return (
-    <div>
       <nav id="menu">
         <div className="navbar">
           <ul>
@@ -14,15 +13,14 @@ function Menu() {
               <a href="#experience">Experience</a>
             </li>
             <li className="nav-item">
-              <a href="#work">Work</a>
+              <a href="#work">Projects</a>
             </li>
             <li className="nav-item">
-              <a href="#contact">Contact Me</a>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
         </div>
       </nav>
-    </div>
   );
 }
 

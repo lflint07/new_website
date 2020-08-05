@@ -15,9 +15,11 @@ function Experience() {
             <div>
               <ul>
                 <li>
-                  Executive team recognized desire to move into technology, thus
-                  resulting in a promotion which focused on cross-departmental
-                  company projects.
+                  <p>
+                    Executive team recognized desire to move into technology,
+                    thus resulting in a promotion which focused on
+                    cross-departmental company projects.
+                  </p>
                 </li>
                 <li>
                   Launched the third location through project managing research

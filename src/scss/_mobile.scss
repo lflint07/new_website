@@ -1,8 +1,21 @@
 //Widescreens -- EXTRA LARGE
 @include mediaXl {
-  #home {
-    content: left;
+  h1 {
+    &.lg-heading {
+      font-size: 6rem;
+    }
   }
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    &.navbar ul {
+      display: flex;
+      flex-direction: row;
+      padding-right: 20px;
+    }
+  }
+
   //About
   .about-info {
     display: flex;
@@ -11,6 +24,11 @@
     .bio-image {
       display: flex;
       flex-direction: row;
+      width: 100%;
+    }
+
+    .bio {
+      text-align: left;
     }
   }
 
@@ -18,6 +36,7 @@
   .job-experience {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
 
     .job {
       border: solid 5px $primary-color;
@@ -25,24 +44,68 @@
       margin-bottom: 20px;
     }
   }
+
   //Projects
   .projects {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
 
-    .project.boxes {
+    .projects.project.boxes {
       display: flex;
       flex-direction: row;
+      justify-content: center;
+    }
+  }
+
+  //Contact
+  #contact {
+    display: flex;
+    flex-direction: column;
+
+    .contact.boxes {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
     }
   }
 }
 //Desktops & Laptops -- LARGE
 @include mediaLg {
+  h1 {
+    &.lg-heading {
+      font-size: 4rem;
+    }
+  }
+
+  //Navbar
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    &.navbar ul {
+      display: flex;
+      flex-direction: row;
+      padding-right: 20px;
+    }
+  }
   //About
   .about-info {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+
+    .bio {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .bio-image {
+      display: flex;
+      flex-direction: row;
+      text-align: left;
+    }
   }
+
   //Experience
   .job-experience {
     display: flex;
@@ -56,40 +119,55 @@
     }
   }
   //Projects
+  .project {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  //Boxes
+  .boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1rem;
+  }
+
+  #contact .contact.boxes {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
 }
 
 //Tablets & Small Laptops -- MEDIUM
 @include mediaMd {
-  main {
-    align-items: center;
-    text-align: center;
+  //Navbar
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    &.navbar ul {
+      display: flex;
+      flex-direction: row;
+      padding-right: 20px;
+    }
+  }
 
-    // .lg-heading {
-    //   line-height: 1;
-    //   margin-bottom: 1rem;
-    // }
+  //Contact
+  #contact {
+    .contact.boxes {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
   }
 }
 
-//Cell Phones -- SMALL
+// Cell Phones -- SMALL
 @include mediaSm {
-  main#home h1 {
-  margin-top: 10vh;
- }
-
-  .navbar ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-  }
-
+  //About
   .bio-image {
-    width: 100%;
-  }
-
-
-  #contact {
     width: 100%;
   }
 }
