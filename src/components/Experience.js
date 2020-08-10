@@ -4,9 +4,11 @@ function Experience() {
   return (
     <div>
       <div id="experience">
-        <h1 className="lg-heading experience">
-          <span className="text-secondary">Experience</span>
-        </h1>
+        <div className="experience-heading">
+          <h1 className="lg-heading experience">
+            <span className="text-secondary">Experience</span>
+          </h1>
+        </div>
         <div className="job-experience">
           <div className="job job-1">
             <h3>Software Analyst</h3>

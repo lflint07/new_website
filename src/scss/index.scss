@@ -8,13 +8,9 @@
 //Body
 
 #body {
-  // @include background;
   background: $primary-color;
   color: set-text-color($primary-color);
-  // height: 100%;
-  // margin: auto;
   font-family: "Gotham";
-  line-height: 1.5;
 }
 
 //Headings
@@ -23,23 +19,10 @@ h2,
 h3,
 h5,
 h6 {
-  margin: 0;
   font-weight: 400;
   color: $additional-color;
   align-items: center;
   text-align: center;
-
-  &.lg-heading {
-    font-size: 3rem;
-    color: $additional-color;
-  }
-
-  &.sm-heading {
-    margin-bottom: 2rem;
-    font-size: 1rem;
-    padding: 0.2rem 1rem;
-    // background: rgba(lighten($primary-color, 3), 0.5);
-  }
 }
 
 a {
@@ -49,13 +32,8 @@ a {
 
 .text-secondary {
   color: $secondary-color;
-  // color: $tertiary-color;
 }
 
-p,
-li {
-  font-size: 1rem;
-}
 
 //Menu
 .navbar {
@@ -71,10 +49,12 @@ li {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  padding: 0;
+  margin: 20px;
+  padding: inherit;
 
   li {
     padding: 10px;
+    font-size: 18px;
   }
 }
 
@@ -99,40 +79,63 @@ li {
 #home {
   display: flex;
   flex-direction: column;
+
+  .hero {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
 }
 
 //About
 
 #about {
-  // display: flex;
-  // flex-direction: column;
-  background: $tertiary-color;
-}
-.lg-heading.about {
-  color: $primary-color;
-}
-
-.text-secondary.about {
-  color: $black-color;
-}
-
-.about-info {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  background: $tertiary-color;
 
-  .bio-image {
+  .about-container {
     display: flex;
-    border-radius: 50%;
-    border: $tertiary-color 3px solid;
+    flex-direction: column;
+  }
+  .about-header {
+    .lg-heading.about {
+      color: $additional-color;
+    }
+
+    .text-secondary.about {
+      color: $secondary-color;
+    }
   }
 
-  .bio {
-    padding: 5px;
-    margin: 0 5px 0 5px;
-    text-align: center;
-    color: $primary-color;
+  .about-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .bio-image {
+      display: flex;
+      border-radius: 50%;
+      border: $tertiary-color 3px solid;
+    }
+
+    .bio {
+      padding: 5px;
+      margin: 0 5px 0 5px;
+      text-align: center;
+      color: $primary-color;
+    }
   }
 }
 
@@ -146,7 +149,6 @@ li {
     background: lighten($primary-color, 3);
     padding: 0.5rem;
     border-bottom: $tertiary-color 5px solid;
-    margin-bottom: 20px;
   }
 }
 
