@@ -99,7 +99,7 @@ function Experience() {
                 </li>
                 <li>
                   Managed customer touchpoints in the full lifecycle of a
-                  customer support ticket from creation to resolution.
+                  customer support tçicket from creation to resolution.
                 </li>
                 <li>
                   Established quality standards and acted as the escalation
