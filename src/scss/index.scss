@@ -145,10 +145,24 @@ a {
   flex-direction: column;
   color: $additional-color;
 
+  .experience-container {
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+  }
+  .job-experience {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    
+  }
   .job {
     background: lighten($primary-color, 3);
-    padding: 0.5rem;
+    // padding: 0.5rem;
     border-bottom: $tertiary-color 5px solid;
+    margin: 20px;
+    padding: 10px;
+    
   }
 }
 

@@ -2,8 +2,8 @@ import React from "react";
 
 function Experience() {
   return (
-    <div>
-      <div id="experience">
+    <div id="experience">
+      <div className="experience-container">
         <div className="experience-heading">
           <h1 className="lg-heading experience">
             <span className="text-secondary">Experience</span>
@@ -11,9 +11,9 @@ function Experience() {
         </div>
         <div className="job-experience">
           <div className="job job-1">
-            <h3>Software Analyst</h3>
-            <h5>Research and Development / 2ULaundry Inc.</h5>
-            <h6>Mar 2019 - Mar 2020</h6>
+            <h2>Software Analyst</h2>
+            <h3>Research and Development / 2ULaundry Inc.</h3>
+            <h5>March 2019 - March 2020</h5>
             <div>
               <ul>
                 <li>
@@ -45,9 +45,9 @@ function Experience() {
             </div>
           </div>
           <div className="job job-2">
-            <h3>Senior Business Analyst</h3>
+            <h2>Senior Business Analyst</h2>
             <h5>Customer Care / 2ULaundry Inc.</h5>
-            <h6>May 2018 - Mar 2019</h6>
+            <h6>May 2018 - March 2019</h6>
             <div>
               <ul>
                 <li>
@@ -82,9 +82,9 @@ function Experience() {
             </div>
           </div>
           <div className="job job-3">
-            <h3>Tier II Analyst</h3>
+            <h2>Tier II Analyst</h2>
             <h5>Customer Care / 2ULaundry Inc.</h5>
-            <h6>Oct 2017 - May 2018</h6>
+            <h6>October 2017 - May 2018</h6>
             <div>
               <ul>
                 <li>
@@ -113,9 +113,9 @@ function Experience() {
             </div>
           </div>
           <div className="job job-4">
-            <h3>Delivery Valet</h3>
+            <h2>Delivery Valet</h2>
             <h5>Operations / 2ULaundry Inc.</h5>
-            <h6>Feb 2017 - Oct 2017</h6>
+            <h6>February 2017 - October 2017</h6>
             <div>
               <ul>
                 <li>
