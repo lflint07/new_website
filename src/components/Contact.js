@@ -2,21 +2,24 @@ import React from "react";
 
 function Contact() {
   return (
-    <div>
-      <div id="contact">
-        <h1 className="lg-heading">
+    <div id="contact">
+      <div className="contact-container">
+        <h1 className="lg-heading contact">
           Contact<span className="text-secondary"> Me</span>
         </h1>
         <div className="contact boxes">
-          <div className ="contact-email">
+          <div className="contact-email">
             <span className="text-secondary">Email:</span> lflint07@gmail.com
           </div>
           <div className="contact-phone">
             <span className="text-secondary">Phone:</span> (540) 292-0965
           </div>
+          <div className="contact-linkedin">
+            <span className="text-secondary"><a href="https://www.linkedin.com/in/lflint/" target="_blank">LinkedIn</a></span>
+          </div>
         </div>
+        <footer id="about-footer">Copyright &copy; 2020</footer>
       </div>
-      <footer id="about-footer">Copyright &copy; 2020</footer>
     </div>
   );
 }

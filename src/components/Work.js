@@ -3,47 +3,49 @@ import React from "react";
 function Work() {
   return (
     <div id="work">
-      <h1 className="lg-heading work">
-        Current<span className="text-secondary"> Projects</span>
-      </h1>
       <div className="projects">
-        <div className="project boxes">
-          <div className="dictionary-app">
-            <h5 className="text-secondary">Google Dictionary App</h5>
-            <a
-              href="https://codepen.io/inlikecoolhand/pen/NWKjYGQ"
-              blank="_target"
-              rel="noopener noreferrer"
-            >
-              <img
-                src="images/dictionary_cover.jpg"
-                alt="dictionary cover"
-              ></img>
-            </a>
-          </div>
+        <div className="heading-projects">
+          <h1 className="lg-heading work">
+            Current<span className="text-secondary"> Projects</span>
+          </h1>
         </div>
-        <div className="project boxes">
-          <div className="calendar-app">
-            <h5 className="text-secondary">iOS Calendar App</h5>
-            <a
-              href="https://codepen.io/inlikecoolhand/pen/PMOzjZ"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src="images/ios_calendar.jpg" alt="calendar cover"></img>
-            </a>
+        <div className="project-container">
+          <div className="project boxes">
+            <div className="dictionary-app">
+              <div className="project-image">
+                <a
+                  href="https://codepen.io/inlikecoolhand/pen/NWKjYGQ"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <h3 className="text-secondary">Google Dictionary App</h3>
+                </a>
+              </div>
+            </div>
           </div>
-        </div>
-        <div className="project boxes">
-          <div className="notes-app">
-            <h5 className="text-secondary">Notes App</h5>
-            <a
-              href="https://github.com/lflint07/on_task_react"
-              target="_target"
-              rel="noopener noreferrer"
-            >
-              <img src="images/notes_app.jpg" alt="notes cover"></img>
-            </a>
+          <div className="project boxes">
+            <div className="calendar-app">
+              <a
+                href="https://codepen.io/inlikecoolhand/pen/PMOzjZ"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h3 className="text-secondary">iOS Calendar App</h3>
+              </a>
+            </div>
+          </div>
+          <div className="project boxes">
+            <div className="temperature-app">
+              <div className="project-image">
+                <a
+                  href="https://temperature-control-bay.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <h3 className="text-secondary">Temperature Control App</h3>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>

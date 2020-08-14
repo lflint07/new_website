@@ -13,7 +13,7 @@ function Experience() {
           <div className="job job-1">
             <h2>Software Analyst</h2>
             <h3>Research and Development / 2ULaundry Inc.</h3>
-            <h5>March 2019 - March 2020</h5>
+            <h4>March 2019 - March 2020</h4>
             <div>
               <ul>
                 <li>
@@ -46,8 +46,8 @@ function Experience() {
           </div>
           <div className="job job-2">
             <h2>Senior Business Analyst</h2>
-            <h5>Customer Care / 2ULaundry Inc.</h5>
-            <h6>May 2018 - March 2019</h6>
+            <h3>Customer Care / 2ULaundry Inc.</h3>
+            <h4>May 2018 - March 2019</h4>
             <div>
               <ul>
                 <li>
@@ -72,7 +72,7 @@ function Experience() {
                   meetings to establish a line of open communication in
                   identifying areas of improvement and cross-functional
                   optimization. This resulted in the cross-training of
-                  Operations/Logistics and Customer Care
+                  Operations/Logistics and Customer Care.
                 </li>
                 <li>
                   Worked directly with Operations to optimize multi-city
@@ -83,8 +83,8 @@ function Experience() {
           </div>
           <div className="job job-3">
             <h2>Tier II Analyst</h2>
-            <h5>Customer Care / 2ULaundry Inc.</h5>
-            <h6>October 2017 - May 2018</h6>
+            <h3>Customer Care / 2ULaundry Inc.</h3>
+            <h4>October 2017 - May 2018</h4>
             <div>
               <ul>
                 <li>
@@ -99,7 +99,7 @@ function Experience() {
                 </li>
                 <li>
                   Managed customer touchpoints in the full lifecycle of a
-                  customer support tçicket from creation to resolution.
+                  customer support ticket from creation to resolution.
                 </li>
                 <li>
                   Established quality standards and acted as the escalation
@@ -107,15 +107,15 @@ function Experience() {
                 </li>
                 <li>
                   Created/updated accounts, scheduled pickups, and provided
-                  resolutions through various messaging channels
+                  resolutions through various messaging channels.
                 </li>
               </ul>
             </div>
           </div>
           <div className="job job-4">
             <h2>Delivery Valet</h2>
-            <h5>Operations / 2ULaundry Inc.</h5>
-            <h6>February 2017 - October 2017</h6>
+            <h3>Operations / 2ULaundry Inc.</h3>
+            <h4>February 2017 - October 2017</h4>
             <div>
               <ul>
                 <li>
