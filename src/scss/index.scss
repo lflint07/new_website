@@ -150,11 +150,17 @@ a {
   .experience-container {
     display: flex;
     flex-direction: column;
+    margin: 20px;
+  }
+
+  .experience-header {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
   }
   .job-experience {
     display: flex;
     flex-direction: column;
-    margin: 20px;
     
   }
   .job {

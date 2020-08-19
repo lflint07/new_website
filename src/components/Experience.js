@@ -113,7 +113,7 @@ function Experience() {
             </div>
           </div>
           <div className="job job-4">
-            <h2>Delivery Valet</h2>
+            <h2>Logistics Delivery Valet</h2>
             <h3>Operations / 2ULaundry Inc.</h3>
             <h4>February 2017 - October 2017</h4>
             <div>
