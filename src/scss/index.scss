@@ -1,6 +1,8 @@
 @import "config";
 @import "menu";
 
+
+
 * {
   box-sizing: border-box;
 }
@@ -10,7 +12,7 @@
 #body {
   background: $primary-color;
   color: set-text-color($primary-color);
-  font-family: "Gotham";
+  font-family: 'Gothic A-1', sans-serif;
 }
 
 //Headings
@@ -162,6 +164,10 @@ a {
     margin: 20px;
     padding: 10px;
   }
+
+  .job li {
+    padding: 10px;
+  }
 }
 
 //Work and Projects
@@ -227,7 +233,7 @@ a {
   flex-direction: column;
   
   .contact-container {
-    margin: 20px;
+    padding-top: 30px;
   }
 
   .lg-heading.contact {

@@ -14,7 +14,7 @@ function Experience() {
             <h2>Software Analyst</h2>
             <h3>Research and Development / 2ULaundry Inc.</h3>
             <h4>March 2019 - March 2020</h4>
-            <div>
+            <div className="experience-list">
               <ul>
                 <li>
                   Executive team recognized desire to move into technology, thus
@@ -46,7 +46,7 @@ function Experience() {
             <h2>Senior Business Analyst</h2>
             <h3>Customer Care / 2ULaundry Inc.</h3>
             <h4>May 2018 - March 2019</h4>
-            <div>
+            <div className="experience-list">
               <ul>
                 <li>
                   Due to location and volume expansion, promotion was created to
@@ -83,7 +83,7 @@ function Experience() {
             <h2>Tier II Analyst</h2>
             <h3>Customer Care / 2ULaundry Inc.</h3>
             <h4>October 2017 - May 2018</h4>
-            <div>
+            <div className="experience-list">
               <ul>
                 <li>
                   Promoted to a new role created within Customer Care to better
@@ -114,7 +114,7 @@ function Experience() {
             <h2>Logistics Delivery Valet</h2>
             <h3>Operations / 2ULaundry Inc.</h3>
             <h4>February 2017 - October 2017</h4>
-            <div>
+            <div className="experience-list">
               <ul>
                 <li>
                   Responsible for fulfilling 40+ daily pickups and deliveries,
