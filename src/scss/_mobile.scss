@@ -1,6 +1,5 @@
 //Widescreens -- EXTRA LARGE
 @include mediaXl {
-
   h1 {
     font-size: 6em;
   }
@@ -15,7 +14,8 @@
     }
   }
 
-  //Hero 
+  //Hero
+
   //About
   #about {
     display: flex;
@@ -26,16 +26,11 @@
       flex-direction: column;
     }
 
-    // .lg-heading.about {
-    //   display: flex;
-    //   flex-direction: row;
-    //   justify-content: center;
-    // }
-
     .about-info {
       display: flex;
       flex-direction: row;
       margin: 10px;
+      padding: 10px;
     }
     .bio-image {
       display: flex;
@@ -45,7 +40,7 @@
     .bio {
       display: flex;
       flex-direction: column;
-      margin: 10px;
+      // margin: 10px;
       font-size: 20px;
     }
   }
@@ -70,11 +65,10 @@
   .projects {
     margin: 20px;
   }
-  .project-container{
+  .project-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
-
 
     .project.boxes {
       display: flex;
@@ -97,10 +91,19 @@
       padding: 20px;
       font-size: 30px;
     }
+    .contact-email,
+    .contact-phone,
+    .contact-linkedin {
+      width: 100%;
+      text-align: center;
+    }
   }
 }
 //Desktops & Laptops -- LARGE
 @include mediaLg {
+  h1 {
+    font-size: 4em;
+  }
   //Navbar
   .navbar {
     display: flex;
@@ -132,7 +135,6 @@
     .lg-heading.about {
       font-size: 4em;
     }
-    
 
     .about-info {
       display: flex;
@@ -186,18 +188,26 @@
 
   //Contact
   #contact {
-
     .contact.boxes {
       display: flex;
       flex-direction: row;
       justify-content: center;
       font-size: 25px;
     }
+    .contact-email,
+    .contact-phone,
+    .contact-linkedin {
+      width: 100%;
+      text-align: center;
+    }
   }
 }
 
 //Tablets & Small Laptops -- MEDIUM
 @include mediaMd {
+  h1 {
+    font-size: 3em;
+  }
   //Navbar
   .navbar {
     display: flex;
@@ -222,7 +232,16 @@
 // Cell Phones -- SMALL
 @include mediaSm {
   //About
-  .bio-image {
-    width: 100%;
+  #about {
+    .about-info {
+      .bio-image {
+        width: 100%;
+        padding: 10px;
+      }
+
+      .bio {
+        text-align: center;
+      }
+    }
   }
 }

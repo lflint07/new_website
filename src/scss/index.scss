@@ -19,8 +19,7 @@ h2,
 h3,
 h4,
 h5,
-h6,
- {
+h6 {
   font-weight: 400;
   color: $additional-color;
   align-items: center;
@@ -35,7 +34,6 @@ a {
 .text-secondary {
   color: $secondary-color;
 }
-
 
 //Menu
 .navbar {
@@ -81,6 +79,7 @@ a {
 #home {
   display: flex;
   flex-direction: column;
+  padding-bottom: 40px;
 
   .hero {
     margin: 20px;
@@ -89,14 +88,6 @@ a {
     justify-content: center;
     text-align: center;
   }
-
-  // h1 {
-  //   font-size: 2em;
-  // }
-
-  // h2 {
-  // //   font-size: 1.5em;
-  // }
 }
 
 //About
@@ -105,6 +96,7 @@ a {
   display: flex;
   flex-direction: column;
   background: $tertiary-color;
+  padding-bottom: 40px;
 
   .about-container {
     display: flex;
@@ -129,13 +121,13 @@ a {
     .bio-image {
       display: flex;
       border-radius: 50%;
-      border: $tertiary-color 3px solid;
+      padding-right: 10px;
     }
 
     .bio {
       padding: 5px;
       margin: 0 5px 0 5px;
-      text-align: center;
+      text-align: left;
       color: $primary-color;
     }
   }
@@ -146,6 +138,7 @@ a {
   display: flex;
   flex-direction: column;
   color: $additional-color;
+  padding-bottom: 40px;
 
   .experience-container {
     display: flex;
@@ -161,7 +154,6 @@ a {
   .job-experience {
     display: flex;
     flex-direction: column;
-    
   }
   .job {
     background: lighten($primary-color, 3);
@@ -169,7 +161,6 @@ a {
     border-bottom: $tertiary-color 5px solid;
     margin: 20px;
     padding: 10px;
-    
   }
 }
 
@@ -178,8 +169,8 @@ a {
   display: flex;
   flex-direction: column;
   background-color: $additional-color;
-  padding: 20px;
-  
+  padding-bottom: 40px;
+
   .lg-heading.work {
     color: $primary-color;
   }
@@ -188,73 +179,73 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 20px; 
+    margin: 20px;
+    padding-bottom: 20px;
   }
 
   .project.boxes {
     display: flex;
     flex-direction: column;
   }
-
-  
 }
 
+// .project.boxes {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+//   margin: 20px;
 
+// .project-image {
+//   max-width: 200px;
+//   max-height: 200px;
+//   display: flex;
+//   flex-direction: column;
+// }
 
+//   // img {
+//   //   // margin: auto;
+//   //   border: 3px #fff solid;
+//   //   max-width: 100%;
+//   //   height: 100%;
+//   //   object-fit: cover;
+//   //   align-self: center;
 
-  // .project.boxes {
-  //   display: flex;
-  //   flex-direction: column;
-  //   justify-content: center;
-  //   align-items: center;
-  //   margin: 20px;
-  
-  // .project-image {
-  //   max-width: 200px;
-  //   max-height: 200px;
-  //   display: flex;
-  //   flex-direction: column;
-  // }
-
-  //   // img {
-  //   //   // margin: auto;
-  //   //   border: 3px #fff solid;
-  //   //   max-width: 100%;
-  //   //   height: 100%;
-  //   //   object-fit: cover;
-  //   //   align-self: center;
-
-  //   //   &:hover {
-  //   //     opacity: 0.5;
-  //   //     border-color: $secondary-color;
-  //   //     color: set-text-color($black-color);
-  //   //     @include easeOut;
-  //   //   }
-  //   // }
-  // }
-
+//   //   &:hover {
+//   //     opacity: 0.5;
+//   //     border-color: $secondary-color;
+//   //     color: set-text-color($black-color);
+//   //     @include easeOut;
+//   //   }
+//   // }
+// }
 
 //Contact Page
 
 #contact {
   display: flex;
   flex-direction: column;
+  
+  .contact-container {
+    margin: 20px;
+  }
 
   .lg-heading.contact {
-    padding: -30px;
+    margin: 0px;
+    padding: 20px;
   }
+
   .contact.boxes {
     display: flex;
     flex-direction: column;
     border: none;
     align-items: center;
-    padding: 10px;
+    padding-bottom: 50px;
     font-size: 20px;
     &:hover {
       background: $primary-color;
     }
   }
-
 
   .contact-phone {
     margin: 10px;
@@ -286,6 +277,7 @@ a {
     margin: 10px;
     padding: 10px;
     border: #fff solid;
+    color: white;
     &:hover {
       // padding: 0.5rem 1.5;
       background: $secondary-color;
@@ -298,7 +290,7 @@ a {
 }
 
 .boxes {
-
+  width: 100%;
   background: $primary-color;
   border: 3px #fff solid;
   @include easeOut;
