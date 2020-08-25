@@ -6,7 +6,7 @@ function Work() {
       <div className="projects">
         <div className="heading-projects">
           <h1 className="lg-heading work">
-            Current<span className="text-secondary"> Projects</span>
+            Relevant<span className="text-secondary"> Projects</span>
           </h1>
         </div>
         <div className="project-container">
