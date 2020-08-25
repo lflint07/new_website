@@ -10,11 +10,6 @@ function About() {
           </h1>
         </div>
         <div className="about-info">
-          <img
-            src="/images/new_website_avi.jpg"
-            alt="Luke Flint"
-            className="bio-image"
-          ></img>
           <div className="bio">
             <p>
               My career has definitely taken an untraditional trajectory. I
@@ -34,14 +29,15 @@ function About() {
               2ULaundry, a pickup-and-delivery laundry startup.
             </p>
             <p>
-              Some say this was my Cinderella Story as I started as a
-              delivery driver and quickly moved up in the ranks. After identifying large customer service improvements, the
-              creating two separate positions for me within the Customer Care
-              Team: Tier II Analyst and Senior Business Analyst, respectively. I
-              worked with that team to develop and implement processes to
-              enhance overall employee and customer experience. I then joined
-              the Research and Development team, where I maintained internal
-              systems, managed projects, and aggregated data for reporting.
+              Some say this was my Cinderella Story as I started as a delivery
+              driver and quickly moved up in the ranks. After identifying large
+              customer service improvements, the creating two separate positions
+              for me within the Customer Care Team: Tier II Analyst and Senior
+              Business Analyst, respectively. I worked with that team to develop
+              and implement processes to enhance overall employee and customer
+              experience. I then joined the Research and Development team, where
+              I maintained internal systems, managed projects, and aggregated
+              data for reporting.
             </p>
             <p>
               Due to COVID-19, however, the company downsized and I was laid off

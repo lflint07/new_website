@@ -1,8 +1,6 @@
 @import "config";
 @import "menu";
 
-
-
 * {
   box-sizing: border-box;
 }
@@ -12,7 +10,7 @@
 #body {
   background: $primary-color;
   color: set-text-color($primary-color);
-  font-family: 'Gothic A-1', sans-serif;
+  font-family: "Gothic A-1", sans-serif;
 }
 
 //Headings
@@ -90,6 +88,11 @@ a {
     justify-content: center;
     text-align: center;
   }
+  .bio-image {
+    display: flex;
+    border-radius: 50%;
+    padding-right: 10px;
+  }
 }
 
 //About
@@ -97,8 +100,9 @@ a {
 #about {
   display: flex;
   flex-direction: column;
-  background: $tertiary-color;
+  background: lighten($tertiary-color, 8);
   padding-bottom: 40px;
+  
 
   .about-container {
     display: flex;
@@ -106,7 +110,7 @@ a {
   }
   .about-header {
     .lg-heading.about {
-      color: $additional-color;
+      color: lighten($additional-color, 10);
     }
 
     .text-secondary.about {
@@ -119,12 +123,6 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    .bio-image {
-      display: flex;
-      border-radius: 50%;
-      padding-right: 10px;
-    }
 
     .bio {
       padding: 5px;
@@ -231,7 +229,7 @@ a {
 #contact {
   display: flex;
   flex-direction: column;
-  
+
   .contact-container {
     padding-top: 30px;
   }
@@ -245,17 +243,19 @@ a {
     display: flex;
     flex-direction: column;
     border: none;
-    align-items: center;
     padding-bottom: 50px;
     font-size: 20px;
+    text-align: center;
     &:hover {
       background: $primary-color;
     }
   }
 
-  .contact-phone {
+  .contact-resume {
     margin: 10px;
     padding: 10px;
+    // width: 100%;
+    // text-align: center;
     border: #fff solid;
     &:hover {
       // padding: 0.5rem 1.5;
@@ -269,6 +269,8 @@ a {
   .contact-email {
     margin: 10px;
     padding: 10px;
+    // width: 100%;
+    // text-align: center;
     border: #fff solid;
     &:hover {
       // padding: 0.5rem 1.5;
@@ -282,6 +284,8 @@ a {
   .contact-linkedin {
     margin: 10px;
     padding: 10px;
+    // width: 100%;
+    // text-align: center;
     border: #fff solid;
     color: white;
     &:hover {

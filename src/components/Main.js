@@ -7,6 +7,11 @@ function Main() {
         <h1 className="lg-heading">
           Hi, I'm <span className="text-secondary">Luke</span>
         </h1>
+        <img
+          src="/images/new_website_avi.jpg"
+          alt="Luke Flint"
+          className="bio-image"
+        ></img>
         <h2 className="sm-heading">
           A business-minded and creative technologist with a penchant for
           maximizing the customer experience

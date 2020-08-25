@@ -6,16 +6,24 @@
   .navbar {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: center;
     &.navbar ul {
       display: flex;
       flex-direction: row;
       padding-right: 20px;
     }
   }
-
-  //Hero
-
+  
+  //Home
+  #home {
+    .bio-image {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-self: center;
+      width: 40%;
+    }
+  }
   //About
   #about {
     display: flex;
@@ -31,11 +39,6 @@
       flex-direction: row;
       margin: 10px;
       padding: 10px;
-    }
-    .bio-image {
-      display: flex;
-      flex-direction: row;
-      margin: 10px;
     }
     .bio {
       display: flex;
@@ -61,7 +64,6 @@
         list-style: inside;
       }
     }
-   
   }
 
   //Projects
@@ -95,10 +97,11 @@
       font-size: 30px;
     }
     .contact-email,
-    .contact-phone,
+    .contact-resume,
     .contact-linkedin {
       width: 100%;
       text-align: center;
+      justify-items: center;
     }
   }
 }
@@ -111,18 +114,25 @@
   .navbar {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: center;
     &.navbar ul {
       display: flex;
       flex-direction: row;
     }
   }
-
-  //Main
+  
+  //Home
   .hero {
     &h1,
     &h2 {
       font-size: 8em;
+    }
+    .bio-image {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-self: center;
+      width: 40%;
     }
   }
   //About
@@ -143,11 +153,6 @@
       display: flex;
       flex-direction: row;
       // margin: 10px;
-    }
-    .bio-image {
-      display: flex;
-      flex-direction: row;
-      margin: 10px;
     }
     .bio {
       display: flex;
@@ -201,7 +206,7 @@
       font-size: 25px;
     }
     .contact-email,
-    .contact-phone,
+    .contact-resume,
     .contact-linkedin {
       width: 100%;
       text-align: center;
@@ -225,6 +230,17 @@
     }
   }
 
+  //Home
+  #home {
+    .bio-image {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-self: center;
+      width: 70%;
+    }
+  }
+
   //Contact
   #contact {
     .contact.boxes {
@@ -233,21 +249,28 @@
       justify-content: space-evenly;
     }
   }
+  .contact-email,
+  .contact-linkedin,
+  .contact-resume {
+    width: 100%;
+    text-align: center;
+    justify-items: center;
+  }
 }
 
 // Cell Phones -- SMALL
 @include mediaSm {
+  //Home
+  #home {
+    .bio-image {
+      width: 100%;
+      padding: 10px;
+    }
+  }
   //About
   #about {
-    .about-info {
-      .bio-image {
-        width: 100%;
-        padding: 10px;
-      }
-
-      .bio {
-        text-align: center;
-      }
+    .bio {
+      text-align: center;
     }
   }
 }
