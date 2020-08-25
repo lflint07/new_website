@@ -260,6 +260,14 @@
 
 // Cell Phones -- SMALL
 @include mediaSm {
+  //Navbar
+  #navbar {
+    .navbar {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
   //Home
   #home {
     .bio-image {
@@ -273,4 +281,6 @@
       text-align: center;
     }
   }
+
+  //Contact
 }
