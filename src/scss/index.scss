@@ -39,7 +39,7 @@ a {
 .navbar {
   background: darken($primary-color, 10);
   display: flex;
-  flex-direction: row;
+  // flex-direction: row;
   justify-content: space-evenly;
 }
 
@@ -123,11 +123,12 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0px 20px 0px 20px;
 
     .bio {
-      padding: 5px;
+      // padding: 5px;
       margin: 0 5px 0 5px;
-      text-align: left;
+      text-align: center;
       color: $primary-color;
     }
   }
