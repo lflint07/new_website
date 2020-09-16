@@ -8,7 +8,8 @@
   .navbar {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
+    
     &.navbar ul {
       display: flex;
       flex-direction: row;
@@ -39,12 +40,14 @@
     .about-info {
       display: flex;
       flex-direction: row;
+
       margin: 10px;
       padding: 10px;
     }
     .bio {
       display: flex;
       flex-direction: column;
+      text-align: left;
       // margin: 10px;
       font-size: 20px;
     }
@@ -62,7 +65,7 @@
       font-size: 20px;
 
       .experience-list {
-        text-align: center;
+        text-align: left;
         list-style: inside;
       }
     }
@@ -173,8 +176,8 @@
       border-bottom: $tertiary-color solid;
     }
     .experience-list {
-      text-align: center;
-      list-style: inside;
+      text-align: left;
+      // list-style: inside;
     }
   }
 

@@ -19,7 +19,9 @@ function Contact() {
             <span className="text-secondary">Email:</span> lflint07@gmail.com
           </div>
           <div className="contact-resume">
-            <span className="text-secondary">Resume</span>
+            <span className="text-secondary">
+              <a href="/images/Luke_Flint_Resume_09_2020_ekos.pdf" target="_blank">Resume</a>
+              </span>
           </div>
         </div>
         <footer id="about-footer">Copyright &copy; 2020</footer>

@@ -121,14 +121,14 @@ a {
   .about-info {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     padding: 0px 20px 0px 20px;
 
     .bio {
       // padding: 5px;
       margin: 0 5px 0 5px;
-      text-align: center;
+      text-align: left;
       color: $primary-color;
     }
   }
