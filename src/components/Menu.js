@@ -3,8 +3,9 @@ import React from "react";
 
 function Menu() {
   return (
-      <nav id="menu">
-        <div className="navbar">
+    <nav id="menu">
+      <div className="navbar">
+        <div className="nav-container">
           <ul>
             <li className="nav-item">
               <a href="#about">About</a>
@@ -20,7 +21,8 @@ function Menu() {
             </li>
           </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
   );
 }
 
