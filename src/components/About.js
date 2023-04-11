@@ -37,7 +37,7 @@ function About() {
               </li>
               <li>
                 <p>
-                  Some say this was my Cinderella Story as I started as a
+                  {/* Some say this was my Cinderella Story as I started as a
                   delivery driver and quickly moved up in the ranks. After
                   identifying large customer service improvements, the creating
                   two separate positions for me within the Customer Care Team:
@@ -46,7 +46,7 @@ function About() {
                   enhance overall employee and customer experience. I then
                   joined the Research and Development team, where I maintained
                   internal systems, managed projects, and aggregated data for
-                  reporting.
+                  reporting. */}
                 </p>
               </li>
               <li>
