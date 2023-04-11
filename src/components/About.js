@@ -26,13 +26,13 @@ function About() {
               </li>
               <li>
                 <p>
-                  I’m all about going where the opportunity is, and Charlotte is
+                  {/* I’m all about going where the opportunity is, and Charlotte is
                   a hub for talented minds. After establishing myself here, I
                   found my next opportunity in completing the full-stack web
                   development bootcamp with Tech Talent South. I worked in a
                   series of creative roles for two Charlotte-based startups
                   before finding my way to 2ULaundry, a pickup-and-delivery
-                  laundry startup.
+                  laundry startup. */}
                 </p>
               </li>
               <li>
