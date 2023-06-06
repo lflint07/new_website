@@ -51,11 +51,7 @@ function About() {
               </li>
               <li>
                 <p>
-                  Due to COVID-19, however, the company downsized and I was laid
-                  off and I’ve definitely come full circle. Now, I’m looking to
-                  utilize my skills with a technology-forward company as a web
-                  developer, designer or project manager while building
-                  customer-centric, front-end technology.
+                  Testing
                 </p>
               </li>
             </ul>
