@@ -4,13 +4,15 @@ import React from "react";
 function Menu() {
   return (
     <nav id="menu">
+
+      
       <div className="navbar">
         <div className="nav-container">
           <ul>
             <li className="nav-item">
-              <a href="#about">About</a>
+              <a href="#about">More Coming Soon</a>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a href="#experience">Experience</a>
             </li>
             <li className="nav-item">
@@ -18,7 +20,7 @@ function Menu() {
             </li>
             <li className="nav-item">
               <a href="#contact">Contact</a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

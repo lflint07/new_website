@@ -2,7 +2,9 @@
 @import "menu";
 
 * {
-  box-sizing: border-box;
+ box-sizing: border-box;
+ 
+  
 }
 
 //Body
@@ -38,14 +40,14 @@ a {
 //Menu
 .navbar {
   background: darken($primary-color, 10);
-  display: flex;
+  display: grid;
   // flex-direction: row;
   justify-content: space-evenly;
 }
 
 .navbar ul {
   list-style: none;
-  display: flex;
+  display: grid;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
